@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="form" action="">
+        <label for="money__input">Put the price in USD</label>
+        <input id="money__input" name="money__input" type="number" placeholder="20USD">
+
+        <label for="discount__input">Select a discount</label>
+        <select id="discount__select" name="select">
+            <option value="Lunes locos">15%</option>
+            <option value="Viernes carnes" selected>30%</option>
+            <option value="Jueves verduras">50%</option>
+        </select>
+
+        <!-- <input id="discount__input" name="discount__input" placeholder="15%"> -->
+
+        <button id="discount__send" type="submit">Calc discount</button>
+    </form>
+
+    <p id="money__outcome"></p>
+
+    <script src="./discount.js"></script>
+
+</body>
+</html>
